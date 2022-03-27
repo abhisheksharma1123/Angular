@@ -1,0 +1,17 @@
+<h2>My Heroes</h2>
+<ul class="heroes">
+  <app-list-item [heroes]="heroes" ></app-list-item>
+</ul>
+
+<app-hero-detail ></app-hero-detail>
+
+
+<!-- 
+
+  1) click the button to select the hero, click handler will run and selectedHero will be
+  initalized to the selected value, this.selectedHero = hero
+  2) [(ngModel)] is a 2 way binding syntax which bind the selectedHero.name to input field.
+  3) changing input change the selecteHero.name value that also changes the
+  currentselected Hero value due to the same object in memory.
+
+ -->

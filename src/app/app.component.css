@@ -1,0 +1,33 @@
+.container{
+    display:flex;
+    justify-content: space-between;
+}
+.app{
+background-color: rgb(206, 203, 203);
+flex-basis: 60%;
+}
+.practice{
+    background-color: green;
+    flex-basis: 40%;
+    
+}
+.practice h1, p{
+color: yellow;
+}
+.practice div p{
+    cursor:pointer;
+    
+}
+.list{
+    border: 2px solid red;
+}
+.id{
+  margin:2rem;
+}
+
+label{
+    color:yellow;
+}
+.selected{
+    background-color: rgb(29, 29, 87);
+}

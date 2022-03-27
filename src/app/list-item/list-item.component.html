@@ -1,0 +1,10 @@
+<li *ngFor="let hero of heroes">
+    <button   type="button" >
+        <a routerLink="/detail/{{hero.id}}">
+        <span class="badge">{{hero.id}}</span>
+      <span class="name">{{hero.name}}</span>
+        </a>
+    </button>
+  </li>
+
+  
